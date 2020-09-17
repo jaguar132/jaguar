@@ -18,10 +18,14 @@ ellipse(29+a, 105, 110, 60);
 ellipse(80+a, 105, 110, 90);
 noStroke();
 }
-
+float m2=0;
+float m1=0;
 void matahari(){
   fill(#EBFC03);
-  ellipse(370, 10, 100, 100);
+  ellipse(370, 50, 100, 100);
+  if(m1>300){
+    m2=-370;
+  }
 }  
 
 void tebing(){
